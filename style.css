@@ -1,0 +1,177 @@
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.line hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #00000054;
+  margin: 0 20px;
+  border-width: 1px;
+}
+
+.but {
+  color: rgb(255, 255, 255);
+  width: 260px;
+  border-radius: 5px;
+  background-color: #4bb4f8;
+  border: none;
+  height: 30px;
+}
+
+.but:hover {
+  cursor: pointer;
+  background-color: #1777f2;
+}
+
+.cont_ins p :not(#fora) {
+  font-family: "Grand Hotel", cursive;
+  font-size: 50px;
+}
+
+.cont_ins {
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 435px;
+  float: left;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  font-size: 15px;
+}
+
+#text,
+#pass {
+  background-color: #fafafa;
+  padding: 10px;
+  width: 260px;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  border-radius: 4px;
+}
+
+#face {
+  display: block; /* Define o link do Facebook como um bloco para posicioná-lo abaixo da linha */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+#face:visited {
+  display: block; /* Define o link do Facebook como um bloco para posicioná-lo abaixo da linha */
+  text-decoration: none;
+  font-weight: bold;
+  color: #385185;
+}
+
+#sen {
+  font-size: 12px;
+  text-decoration: none;
+  color: #385185;
+}
+
+.cont2 {
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  padding: 25px;
+  margin-top: 8px;
+  float: left;
+}
+
+.cont2 a {
+  text-decoration: none;
+  color: #1598f6;
+}
+
+* a {
+  text-decoration: none;
+}
+
+#links {
+  padding-top: 820px;
+  padding-left: 100px;
+  text-align: center;
+  border: 0px solid black;
+  font-size: 12px;
+}
+#links a:visited {
+  text-align: center;
+  color: #737373;
+  padding-left: 50px;
+}
+#links a {
+  text-align: center;
+  color: #737373;
+  padding-left: 8px;
+}
+#links a:hover {
+  text-align: center;
+  color: #737373;
+  padding-left: 8px;
+  text-decoration: underline;
+}
+
+#cel {
+  float: left;
+  padding-top: 5%;
+  padding-left: 25%;
+  margin-right: 20px;
+}
+
+.fora {
+  background: rgba(165, 42, 42, 0);
+  border: 0px solid rgb(214, 15, 15);
+  clear: both;
+}
+p #fora {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+  border: 0px solid rgb(235, 7, 7);
+  width: 380px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  float: left;
+  padding-top: 6%;
+}
+
+.ins {
+  font-family: "Grand Hotel", cursive;
+  font-size: 50px;
+}
+
+.sel select {
+  border: none;
+  outline: none;
+  background-image: url("seta.png"); /* Substitua pelo caminho da imagem da seta personalizada */
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
+  appearance: none;
+
+}
+
+#text {
+  background-color: #fafafa;
+  padding: 10px;
+  width: 260px;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
